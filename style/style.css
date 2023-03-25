@@ -1,0 +1,85 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Montserrat', sans-serif;
+}
+
+header {
+   margin: 20px 0;
+}
+.logo img {
+   width: 75px;
+   height: 30px;
+   margin-top: 0px;
+}
+ul {
+   list-style: none;
+}
+ul li {
+   display: inline;
+}
+img {
+   vertical-align: middle;
+   border-style: none;
+}
+a {
+   text-decoration: none;
+   transition: all .3s;
+}
+.nav-item a {
+   font-size: 13px;
+   text-decoration: none;
+   color: black;
+}
+.navbar {
+   margin-top: 5px;
+   margin-right: 4px;
+}
+.nav-item {
+   font-size: 13px;
+   text-transform: uppercase;
+   font-weight: 700;
+   line-height: 19px;
+   margin-left: 20px;
+}
+.nav-item a:hover {
+   color: blue;
+}
+.lang-wrapper {
+   top: 6px;
+   left: 8px;
+   font-weight: 400;
+   border-radius: 16px;
+   border: 1px solid #E6E6E6FF;
+   background-color: #E6E6E6FF;
+   padding: 6px 34px 6px 14px;
+   cursor: pointer;
+   color: #17206a;
+   font-size: 20px;
+   letter-spacing: .05;
+   font-weight: 300;
+   position: relative;
+}
+.lang-wrapper::before {
+   position: absolute;
+   content: "";
+   top: 0;
+   bottom: 0;
+   right: 2px;
+   margin: auto;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-image: url('https://kun.uz/assets/3d48c862/img/toggle-circle-v2.svg');
+   width: 24px;
+   height: 24px;
+}
+a .lang-wrapper {
+   font-size: 14px;
+}
+.search {
+   position: relative;
+   left: 120px;
+   bottom: 20px;
+}
