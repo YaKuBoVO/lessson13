@@ -116,17 +116,49 @@ a .lang-wrapper {
    font-weight: 500;
    color: #000;
 }
-.news-meta {
-  margin-top: 15px;
-  opacity: .8;
-  color: #000;
-  font-size: 12px;
-  padding-left: 20px;
-  background-image: url('https://kun.uz/assets/3d48c862/img/calendar.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
+
+.news-meta::before {
+   content: "";
+   opacity: .8;
+   margin-top: 13px;
+   margin-bottom: 12px;
+   color: #d3d3d3;
+   padding-left: 20px;
+   background-image: url("https://kun.uz/assets/99110d40/img/calendar.svg");
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+.news-meta{
+   margin-top: 5px;
+   margin-bottom: 5px;
+   font-size: 15px;
+   font-weight: 500;
+   margin-top: 8px;
+   color: #d3d3d3;
 }
 
+
+.news-data::before {
+   content: "";
+   margin-top: 13px;
+   margin-bottom: 12px;
+   opacity: .8;
+   color: #d3d3d3;
+   font-size: 15px;
+   font-weight: 500;
+   padding-left: 20px;
+   background-image: url('https://kun.uz/assets/99110d40/img/calendar.svg');
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+.news-data{
+   margin-top: 5px;
+   margin-bottom: 5px;
+   font-size: 15px;
+   font-weight: 500;
+   margin-top: 8px;
+   color: #d3d3d3;
+}
 
 /*.top-news_small-items {
    margin: 20px 0 0 0;
@@ -138,7 +170,6 @@ a .lang-wrapper {
 .small-news_img img {
    width: 165px;
    height: 110px;
-   margin-top: 10px;
    overflow: hidden;
 }
 
@@ -193,18 +224,6 @@ a .lang-wrapper {
    font-weight: bold;
    line-height: 22px;
    transition: .2s ease;
-}
-
-.news-data {
-   margin-top: 13px;
-   margin-bottom: 12px;
-   opacity: .8;
-   color: #000;
-   font-size: 12px;
-   padding-left: 20px;
-   background-image: url('https://kun.uz/assets/3d48c862/img/calendar.svg');
-   background-repeat: no-repeat;
-   background-size: contain;
 }
 
 .new_title {
