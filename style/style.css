@@ -255,7 +255,7 @@ a:hover, p:hover, h2:hover {
    width: 20px;
    height: 20px;
    right: 18px;
-  background-image: url('https://kun.uz/assets/3d48c862/img/silver-arrow-right.svg');
+  background-image: url('https://kun.uz/assets/99110d40/img/silver-arrow-right.svg');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -323,9 +323,9 @@ a:hover, p:hover, h2:hover {
  }
  .rightt::after {
    content: "";
-   width: 20px;
-   height: 20px;
-   background-image: url('https://kun.uz/assets/3d48c862/img/blue-right-arrow.svg');
+   width: 15px;
+   height: 15px;
+   background-image: url('https://kun.uz/assets/99110d40/img/blue-right-arrow.svg');
    background-repeat: no-repeat;
    padding-left: 40px;
    background-size: contain;
@@ -592,7 +592,7 @@ a:hover, p:hover, h2:hover {
    height: 15px;
    top: 6px;
    right: 5px;
-   background-image: url('https://kun.uz/assets/3d48c862/img/blue-right-arrow.svg');
+   background-image: url('https://kun.uz/assets/99110d40/img/blue-right-arrow.svg');
    background-repeat: no-repeat;
    background-size: contain;
 }
